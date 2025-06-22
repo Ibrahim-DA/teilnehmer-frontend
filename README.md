@@ -1,31 +1,31 @@
-# Kurs-Teilnehmer-Management System
+# Kurs-Teilnehmer-System Dokumentation
 
-## Inhaltsverzeichnis
-1. [Einleitung](#einleitung)
-2. [Funktionen](#funktionen)
-3. [Installation](#installation)
-4. [Datenbankstruktur](#datenbankstruktur)
-5. [API-Referenz](#api-referenz)
+## 1. Teilnehmerverwaltung
+![Teilnehmerliste](https://github.com/Ibrahim-DA/teilnehmer-frontend/blob/main/Screenshots/Teilnehmerliste.png?raw=true)  
+*Übersicht aller Teilnehmer mit Status und Kurszuordnung*
 
----
+![Neuer Teilnehmer](https://github.com/Ibrahim-DA/teilnehmer-frontend/blob/main/Screenshots/Neuteilnehmer.png?raw=true)  
+*Formular zur Erfassung neuer Teilnehmer:  
+- Pflichtfelder: Vorname, Nachname, E-Mail  
+- Optionale Kurszuordnung*
 
-## Einleitung
-![Teilnehmerverwaltung](https://github.com/Ibrahim-DA/teilnehmer-frontend/blob/main/Screenshots/Teilnehmerverwaltung.png?raw=true)
+## 2. Kursmanagement
+![Neuer Kurs](https://github.com/Ibrahim-DA/teilnehmer-frontend/blob/main/Screenshots/neuenkurs.png?raw=true)  
+*Kurserfassung mit:  
+- Kursname (Pflichtfeld)  
+- Zeitraum (Start-/Enddatum)  
+- Automatischer Validierung der Datumsangaben*
 
----
+## 3. Systemübersicht
+![Hauptoberfläche](https://github.com/Ibrahim-DA/teilnehmer-frontend/blob/main/Screenshots/Teilnehmerverwaltung.png?raw=true)  
+*Zentrale Administrationsoberfläche mit:  
+- Schnellzugriff auf alle Funktionen  
+- Zusammenfassung der aktuellen Teilnehmerzahlen  
+- Statusübersicht aller Kurse*
 
-## Funktionen
-### Teilnehmerverwaltung
-![Neuteilnehmer](https://github.com/Ibrahim-DA/teilnehmer-frontend/blob/main/Screenshots/Neuteilnehmer.png?raw=true)
-
-### Kursmanagement
-![Neuenkurs](https://github.com/Ibrahim-DA/teilnehmer-frontend/blob/main/Screenshots/Neuenkurs.png?raw=true)
-
----
-
-## Installation
-```bash
-git clone https://github.com/Ibrahim-DA/teilnehmer-frontend.git
-cd teilnehmer-frontend
-npm install
-npm start
+## 4. Datenbankstruktur
+![Datenbankschema](https://github.com/Ibrahim-DA/teilnehmer-frontend/blob/main/Screenshots/supabase-schema.png?raw=true)  
+*Technische Abbildung der:  
+- Teilnehmer-Kurs-Beziehungen  
+- Zahlungsverwaltung  
+- Historisierung aller Datensätze*
