@@ -1,0 +1,13 @@
+# Dokumentation Teilnehmerverwaltung
+
+## 1. Hauptoberfläche
+![Übersicht der Teilnehmerverwaltung](screenshots/Teilnehmerverwaltung.png)
+
+## 2. Teilnehmerliste
+![Liste aller Teilnehmer](screenshots/Teilnehmerliste.png)
+
+## 3. Neuen Teilnehmer anlegen
+![Formular für neue Teilnehmer](screenshots/Neuteilnehmer.png)
+
+## 4. Neuen Kurs erstellen
+![Dialog zur Kursanlage](screenshots/Neuenkurs.png)
